@@ -2,18 +2,14 @@
 <HTML lang="ru">
 <head>
 <meta charter="utf-8>
-<title>JavaScript  </title>
-<link rel="stylesheet" href="stole.css">
+alert("Введите сумму");
+var summa = prompt("Какую сумму вы хотите?");
+Var dollarRate = 79;
+Var euroRate = 85;
+Var dollarAmount = summa/dollarAmount;
+Var euroAmount = summa/euroAmount;
+Var dollarAmount = Math. Round(euroAmount); 
+Var euroAmount = Math. Round(euroAmount) ;
+alert(" Сумма в долларах: " + dollarAmount + "\n Сумма в евро: " + euroAmount);
+</script>
 </head>
-<body>
-<h1> Конвертер валют</h1>
-<p>
-<label> $ </label>
-<input type="number" id="input dollars" placeholder="$" on input="Конвертер валют(this.value)" on change=" Конвертер валют(this.value)">
-</p>
-<p> RUB;
-<span id="outputrub"></span>
-</p>
-<script src="script.js"></script>
-</body>
-</HTML>
